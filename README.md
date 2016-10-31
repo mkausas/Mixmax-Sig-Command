@@ -1,6 +1,11 @@
-# Giphy Slash Command for Mixmax
+# Signature Slash Command for Mixmax
 
-This is an open source Mixmax Slash Command. See <http://sdk.mixmax.com/docs/tutorial-giphy-slash-command> for more information about how to use this example code in Mixmax.
+## Overview
+Make your contact info more then plain text!
+Present yourself differently depending on who you're contacting.
+If your info such as position, company, or contact change simply change your contact info variables so they automatically update in all emails previously sent! 
+
+![alt tag](https://raw.githubusercontent.com/mkausas/Mixmax-Sig-Command/master/Assets/design.png "Design")
 
 ## Running locally
 
@@ -10,7 +15,7 @@ This is an open source Mixmax Slash Command. See <http://sdk.mixmax.com/docs/tut
 To simulate locally how Mixmax calls the typeahead URL (to return a JSON list of typeahead results), run:
 
 ```
-curl http://localhost:9145/typeahead?text=cats
+curl http://localhost:9145/typeahead
 ```
 
 To simulate locally how Mixmax calls the resolver URL (to return HTML that goes into the email), run:
